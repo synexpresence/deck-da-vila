@@ -56,9 +56,14 @@ function CardapioPage() {
           <h1 className="mt-3 font-display text-4xl leading-[1.05] sm:text-6xl">
             Tudo que sai da <span className="text-ember">brasa</span>
           </h1>
-          <p className="mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground">
-            47 itens organizados por categoria. Preços e descrições conforme o cardápio de delivery
-            do Deck da Vila.
+          <p className="mt-4 max-w-xl whitespace-pre-line text-sm leading-relaxed text-muted-foreground">
+            {`Espetos, hambúrgueres, lanches, petiscos, torresmo de rolo e bebidas: tudo reunido em um cardápio completo e fácil de consultar.
+
+
+
+
+
+Preços, itens e informações podem sofrer alterações sem aviso prévio.`}
           </p>
 
           <div className="mt-8 flex flex-col gap-4">
