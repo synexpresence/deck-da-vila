@@ -387,7 +387,7 @@ function Home() {
                 ))}
               </address>
               <p className="mt-4 whitespace-pre-line text-sm text-muted-foreground">
-                 {`Horário de funcionamento:\u00a0
+                 {`Horários de funcionamento:\u00a0
 
 segunda-feira 17:00–00:00
 terça-feira 17:00–00:00
