@@ -380,8 +380,15 @@ function Home() {
                   </span>
                 ))}
               </address>
-              <p className="mt-4 text-sm text-muted-foreground">
-                Horário de funcionamento: a confirmar com o restaurante.
+              <p className="mt-4 whitespace-pre-line text-sm text-muted-foreground">
+                {`Horário de funcionamento:\u00a0
+segunda-feira\t17:00–00:00
+terça-feira\t17:00–00:00
+quarta-feira\t17:00–00:00
+quinta-feira\t17:00–00:00
+sexta-feira\t17:00–00:00
+sábado\t12:00–00:00
+domingo\t12:00–21:00`}
               </p>
               <div className="mt-10 flex flex-col gap-3 sm:flex-row">
                 <a
