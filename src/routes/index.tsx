@@ -252,7 +252,7 @@ function Home() {
             <div>
               <p className="eyebrow">Cardápio digital</p>
               <h2 className="mt-4 font-display text-4xl leading-[1.05] sm:text-5xl">
-                {totalItens} itens, sempre no bolso
+                {totalItens} itens, para todos os gostos
               </h2>
               <p className="mt-6 max-w-md text-base leading-relaxed text-muted-foreground">
                 Cardápio completo pensado para o celular: navegação por categoria, busca por item,
@@ -321,7 +321,7 @@ function Home() {
           <Reveal>
             <p className="eyebrow">Avaliações</p>
             <h2 className="mt-4 font-display text-4xl leading-[1.05] sm:text-5xl">
-              Avaliações&nbsp;
+              Avaliações reais de quem já passou pelo Deck
             </h2>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
               Uma experiência que vai além do prato. Boa comida, ambiente agradável e momentos que ficam na memória. A melhor forma de conhecer o Deck da Vila é ouvir quem já esteve aqui. Confira as experiências compartilhadas por nossos clientes.
