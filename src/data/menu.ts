@@ -301,7 +301,7 @@ export const menu: MenuCategoria[] = [
         "foto": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202511241854_dxaqxkb734t.png"
       },
       {
-        "nome": "Refrigerante Sprite Zero Lata 350ml",
+        "nome": "Sprite Zero Lata 350ml",
         "descricao": "Lata 350ml",
         "preco": "R$ 8,00",
         "foto": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202604221115_mlebirxyg6j.png"
