@@ -158,8 +158,8 @@ function Home() {
 
               <dl className="mt-10 grid grid-cols-2 gap-x-6 gap-y-8">
                 <div>
-                  <dt className="eyebrow">Espetos na brasa</dt>
-                  <dd className="mt-2 font-display text-3xl">30</dd>
+                  <dt className="eyebrow">{"\n"}</dt>
+                  <dd className="mt-2 font-display text-3xl">{"\n"}</dd>
                 </div>
               </dl>
             </Reveal>
