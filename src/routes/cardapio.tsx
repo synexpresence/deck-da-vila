@@ -124,9 +124,11 @@ function CardapioPage() {
                       <h3 className="font-display text-lg leading-snug">{item.nome}</h3>
                       <span className="shrink-0 text-sm font-semibold text-ember">{item.preco}</span>
                     </div>
-                    <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
-                      {item.descricao}
-                    </p>
+                    {cat.slug !== "bebidas" && item.descricao && (
+                      <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                        {item.descricao}
+                      </p>
+                    )}
                   </div>
                 </li>
               ))}

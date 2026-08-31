@@ -283,8 +283,8 @@ export const menu: MenuCategoria[] = [
         "foto": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202410091134_4f07pcy90a.jpeg"
       },
       {
-        "nome": "Fanta Guarana Lata 6x350ml",
-        "descricao": "Lata 350ml",
+        "nome": "Fanta Guaraná Lata 350ml",
+        "descricao": "",
         "preco": "R$ 8,00",
         "foto": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210192155_o0ondxs2m4.jpg"
       },
