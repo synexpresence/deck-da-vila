@@ -321,7 +321,7 @@ function Home() {
           <Reveal>
             <p className="eyebrow">Avaliações</p>
             <h2 className="mt-4 font-display text-4xl leading-[1.05] sm:text-5xl">
-              Avaliações em breve
+              Avaliações&nbsp;
             </h2>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
               Uma experiência que vai além do prato. Boa comida, ambiente agradável e momentos que ficam na memória. A melhor forma de conhecer o Deck da Vila é ouvir quem já esteve aqui. Confira as experiências compartilhadas por nossos clientes.
