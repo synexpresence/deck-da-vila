@@ -59,10 +59,6 @@ function CardapioPage() {
           <p className="mt-4 max-w-xl whitespace-pre-line text-sm leading-relaxed text-muted-foreground">
             {`Espetos, hambúrgueres, lanches, petiscos, torresmo de rolo e bebidas: tudo reunido em um cardápio completo e fácil de consultar.
 
-
-
-
-
 Preços, itens e informações podem sofrer alterações sem aviso prévio.`}
           </p>
 
