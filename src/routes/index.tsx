@@ -324,8 +324,7 @@ function Home() {
               Avaliações em breve
             </h2>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-              Aqui serão exibidas as avaliações reais do perfil do Deck da Vila no Google. Nenhuma
-              avaliação foi adicionada ainda — tudo será inserido posteriormente.
+              Uma experiência que vai além do prato. Boa comida, ambiente agradável e momentos que ficam na memória. A melhor forma de conhecer o Deck da Vila é ouvir quem já esteve aqui. Confira as experiências compartilhadas por nossos clientes.
             </p>
           </Reveal>
 
@@ -336,10 +335,17 @@ function Home() {
                   Avaliação {i + 1}
                 </p>
                 <p className="mt-4 font-display text-lg leading-snug text-foreground/45">
-                  Depoimento a ser adicionado posteriormente
+                  {[
+                    "MELHOR RESTAURANTE DE SÃO PAULO, comida top, ambiente agradável, comida sensacional, amei demais a recepção deles, Com toda certeza voltarei mais vezes 🥰🤩😍😍",
+                    "Gostaria de elogiar o Deck da Vila pelo excelente atendimento e pela ótima estrutura. O ambiente é agradável, organizado e muito confortável, e a equipe sempre atende com simpatia e atenção. Parabéns a todos pelo excelente trabalho!",
+                    "O ambiente do Deck da vila é super agradável, acolhedor e muito limpo. A comida estava absolutamente deliciosa, bem temperada e com uma apresentação impecável. O atendimento também foi um grande diferencial, com funcionários muito atenciosos. Com certeza voltarei mais vezes e recomendo a todos!",
+                    "Lugar simplesmente incrível, de um ambiente maravilhoso e aconchegante para a família, sem contar que a comida é extremamente saborosa… Voltarei mais vezes…",
+                    "Experiência agradável!\nÓtimo lugar para estar com a família, amigos, e comemorar aniversário também!\n\nIndico o deck para todo mundo\nAtendimento maravilhoso e comida impecável",
+                    "Melhor restaurante da região!\nAmbiente familiar, música agradável e a comida simplesmente MARAVILHOSA.\nSugestão: experimentem o CHURROS rs..\nSistema muito prático e rápido, cada um com a sua comanda PERFEITO!\nDeck, obrigada pela experiência encantadora.",
+                  ][i]}
                 </p>
                 <p className="mt-6 text-xs uppercase tracking-[0.2em] text-muted-foreground">
-                  Cliente · Google
+                  {["BÁRBARA PIMENTA · GOOGLE", "CLAYTON RODRIGUES · GOOGLE", "CAIO FANTASTIC · GOOGLE", "MARCOS VINICIUS · GOOGLE", "LAURA COMOTI · GOOGLE", "ELIÉRGINA SOUSA · GOOGLE"][i]}
                 </p>
               </li>
             ))}
