@@ -65,7 +65,6 @@ export const Route = createFileRoute("/")({
           "@type": "Restaurant",
           name: "Deck da Vila | Espetaria e Restaurante",
           servesCuisine: "Espetinhos, hambúrguer artesanal, petiscos",
-          priceRange: "R$ 40–120",
           telephone: "+5511978763997",
           address: {
             "@type": "PostalAddress",
@@ -161,10 +160,6 @@ function Home() {
                 <div>
                   <dt className="eyebrow">Espetos na brasa</dt>
                   <dd className="mt-2 font-display text-3xl">30</dd>
-                </div>
-                <div>
-                  <dt className="eyebrow">Faixa de preço</dt>
-                  <dd className="mt-2 font-display text-3xl">R$ 40–120</dd>
                 </div>
               </dl>
             </Reveal>
@@ -326,12 +321,11 @@ function Home() {
           <Reveal>
             <p className="eyebrow">Avaliações</p>
             <h2 className="mt-4 font-display text-4xl leading-[1.05] sm:text-5xl">
-              O que dizem no Google
+              Avaliações em breve
             </h2>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-              Espaço reservado para até 15 avaliações reais do perfil do Deck da Vila no Google. As
-              avaliações e a nota geral serão inseridas assim que forem fornecidas — nada aqui é
-              fictício.
+              Aqui serão exibidas as avaliações reais do perfil do Deck da Vila no Google. Nenhuma
+              avaliação foi adicionada ainda — tudo será inserido posteriormente.
             </p>
           </Reveal>
 
@@ -342,10 +336,10 @@ function Home() {
                   Avaliação {i + 1}
                 </p>
                 <p className="mt-4 font-display text-lg leading-snug text-foreground/45">
-                  Depoimento real a confirmar
+                  Depoimento a ser adicionado posteriormente
                 </p>
                 <p className="mt-6 text-xs uppercase tracking-[0.2em] text-muted-foreground">
-                  Nome · Google
+                  Cliente · Google
                 </p>
               </li>
             ))}
