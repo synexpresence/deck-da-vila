@@ -8,6 +8,7 @@ import {
   IFOOD_URL,
   INSTAGRAM_URL,
   MAPS_URL,
+  OPENING_HOURS,
   WHATSAPP_TEL,
   WHATSAPP_URL,
 } from "@/lib/site";
@@ -373,8 +374,8 @@ function Home() {
             className="absolute inset-0 h-full w-full scale-105 object-cover blur-[3px]"
           />
           <div className="absolute inset-0 bg-charcoal/85" />
-          <div className="relative mx-auto max-w-6xl px-5 py-24 lg:px-8 lg:py-32">
-            <Reveal className="max-w-lg">
+          <div className="relative mx-auto grid max-w-6xl gap-12 px-5 py-24 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.92fr)] lg:items-center lg:gap-16 lg:px-8 lg:py-40">
+            <Reveal>
               <p className="eyebrow">Localização</p>
               <h2 className="mt-4 font-display text-4xl leading-[1.05] sm:text-5xl">
                 Rua Itinguçu, 1190
@@ -386,17 +387,6 @@ function Home() {
                   </span>
                 ))}
               </address>
-              <p className="mt-4 whitespace-pre-line text-sm text-muted-foreground">
-                 {`Horários de funcionamento:\u00a0
-
- Segunda-feira: 17:00–00:00
- Terça-feira: 17:00–00:00
- Quarta-feira: 17:00–00:00
- Quinta-feira: 17:00–00:00
- Sexta-feira: 17:00–00:00
- Sábado: 12:00–00:00
- Domingo: 12:00–21:00`}
-              </p>
               <div className="mt-10 flex flex-col gap-3 sm:flex-row">
                 <a
                   href={MAPS_URL}
@@ -414,6 +404,31 @@ function Home() {
                 >
                   Pedir pelo iFood
                 </a>
+              </div>
+            </Reveal>
+
+            <Reveal>
+              <div className="rounded-btn border border-ember/40 bg-charcoal/70 p-8 backdrop-blur-sm sm:p-10">
+                <div className="flex items-center gap-3">
+                  <span aria-hidden className="h-px w-8 bg-ember" />
+                  <p className="eyebrow">Horários de funcionamento</p>
+                </div>
+                <ul className="mt-6">
+                  {OPENING_HOURS.map(({ day, hours }) => (
+                    <li
+                      key={day}
+                      className="flex items-baseline gap-4 border-b border-border/70 py-3.5 last:border-0"
+                    >
+                      <span className="text-xs uppercase tracking-[0.18em] text-foreground/75 sm:text-sm">
+                        {day}
+                      </span>
+                      <span aria-hidden className="h-px flex-1 -translate-y-1 bg-border" />
+                      <span className="font-display text-xl tabular-nums text-cream sm:text-2xl">
+                        {hours}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </Reveal>
           </div>
