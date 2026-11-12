@@ -110,8 +110,7 @@ export function SiteFooter() {
 
       <div className="rule-top">
         <p className="mx-auto max-w-6xl px-5 py-6 text-xs text-muted-foreground lg:px-8">
-          © {new Date().getFullYear()} Deck da Vila · Espetaria e Restaurante. Preços, itens e informações
-          podem sofrer alterações sem aviso prévio.
+          © 2026 Deck da Vila - Todos os direitos reservados. Preços, itens e informações podem sofrer alterações sem aviso prévio.
         </p>
       </div>
     </footer>
