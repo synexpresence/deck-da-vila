@@ -1,7 +1,8 @@
+import { Motorbike } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import logo from "@/assets/image-6.png.asset.json";
-import { WHATSAPP_URL } from "@/lib/site";
+import { IFOOD_URL, WHATSAPP_URL } from "@/lib/site";
 
 const nav = [
   { label: "Início", href: "/#inicio" },
@@ -56,6 +57,15 @@ export function SiteHeader() {
             </a>
           ))}
           <a
+            href={IFOOD_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-btn bg-ember px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-opacity hover:opacity-90"
+          >
+            <Motorbike className="h-4 w-4 shrink-0" aria-hidden />
+            Delivery
+          </a>
+          <a
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
@@ -98,10 +108,20 @@ export function SiteHeader() {
             ))}
           </ul>
           <a
+            href={IFOOD_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setOpen(false)}
+            className="mt-6 flex items-center justify-center gap-2 rounded-btn bg-ember px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-primary-foreground"
+          >
+            <Motorbike className="h-4 w-4 shrink-0" aria-hidden />
+            Delivery
+          </a>
+          <a
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-btn mt-6 block bg-ember px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-primary-foreground"
+            className="rounded-btn mt-3 block bg-ember px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-primary-foreground"
           >
             Reservar mesa
           </a>
