@@ -112,7 +112,7 @@ function Home() {
             <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
               <Link
                 to="/cardapio"
-                className="bg-ember px-8 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-opacity hover:opacity-90"
+                className="rounded-btn bg-ember px-8 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-opacity hover:opacity-90"
               >
                 Ver cardápio
               </Link>
@@ -120,7 +120,7 @@ function Home() {
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border border-cream/40 px-8 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] transition-colors hover:border-ember hover:text-ember"
+                className="rounded-btn border border-cream/40 px-8 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] transition-colors hover:border-ember hover:text-ember"
               >
                 Reservar mesa
               </a>
@@ -260,7 +260,7 @@ function Home() {
               </p>
               <Link
                 to="/cardapio"
-                className="mt-8 inline-block bg-ember px-8 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-opacity hover:opacity-90"
+                className="rounded-btn mt-8 inline-block bg-ember px-8 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-opacity hover:opacity-90"
               >
                 Abrir cardápio
               </Link>
@@ -356,7 +356,7 @@ function Home() {
               href={MAPS_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block border border-border px-8 py-4 text-sm font-semibold uppercase tracking-[0.18em] transition-colors hover:border-ember hover:text-ember"
+              className="rounded-btn inline-block border border-border px-8 py-4 text-sm font-semibold uppercase tracking-[0.18em] transition-colors hover:border-ember hover:text-ember"
             >
               Avalie o Deck da Vila no Google
             </a>
@@ -402,7 +402,7 @@ function Home() {
                   href={MAPS_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-ember px-8 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-opacity hover:opacity-90"
+                  className="rounded-btn bg-ember px-8 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-opacity hover:opacity-90"
                 >
                   Como chegar
                 </a>
@@ -410,7 +410,7 @@ function Home() {
                   href={IFOOD_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="border border-cream/40 px-8 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] transition-colors hover:border-ember hover:text-ember"
+                  className="rounded-btn border border-cream/40 px-8 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] transition-colors hover:border-ember hover:text-ember"
                 >
                   Pedir pelo iFood
                 </a>
@@ -434,13 +434,13 @@ function Home() {
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 bg-ember px-8 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-opacity hover:opacity-90"
+                className="rounded-btn flex-1 bg-ember px-8 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-primary-foreground transition-opacity hover:opacity-90"
               >
                 Reservar mesa
               </a>
               <Link
                 to="/cardapio"
-                className="flex-1 border border-border px-8 py-4 text-sm font-semibold uppercase tracking-[0.18em] transition-colors hover:border-ember hover:text-ember"
+                className="rounded-btn flex-1 border border-border px-8 py-4 text-sm font-semibold uppercase tracking-[0.18em] transition-colors hover:border-ember hover:text-ember"
               >
                 Ver cardápio
               </Link>

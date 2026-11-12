@@ -59,7 +59,7 @@ export function SiteHeader() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="border border-ember px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.18em] text-ember transition-colors hover:bg-ember hover:text-primary-foreground"
+            className="rounded-btn border border-ember px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.18em] text-ember transition-colors hover:bg-ember hover:text-primary-foreground"
           >
             Reservar mesa
           </a>
@@ -101,7 +101,7 @@ export function SiteHeader() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 block bg-ember px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-primary-foreground"
+            className="rounded-btn mt-6 block bg-ember px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-primary-foreground"
           >
             Reservar mesa
           </a>
